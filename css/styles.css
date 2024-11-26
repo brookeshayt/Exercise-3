@@ -34,7 +34,8 @@ h1 {
     align-items: center;
 }
 
-#image {
+.image {
+    max-width: 100%;
     background-image: url(../images/Henry.png);
     background-size: contain;
     background-repeat: no-repeat;
