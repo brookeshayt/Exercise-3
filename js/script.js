@@ -1,9 +1,9 @@
 console.log('Come work out with Henry the Hamster!');
 
 $("#button-1").on("click", function () {
-    console.log('Dwayne "The Rock" Johnson, is that you?');
+    console.log('Ah yes, the classic hamster wheel. But Henry is no ordinary hamster');
     $("#button-1").addClass("button-active");
-    $(".image").html("<img src='../images/Henry.png'>");
+    $(".image").html("<img src='../images/Henry5.png'>");
     $("#button-2, #button-3, #button-4, #button-5").removeClass("button-active");
 });
 
@@ -29,8 +29,8 @@ $("#button-4").on("click", function () {
 });
 
 $("#button-5").on("click", function () {
-    console.log('Ah yes, the classic hamster wheel. But Henry is no ordinary hamster');
+    console.log('Dwayne "The Rock" Johnson, is that you?');
     $("#button-5").addClass("button-active");
-    $(".image").html("<img src='../images/Henry5.png'>");
+    $(".image").html("<img src='../images/Henry.png'>");
     $("#button-1, #button-2, #button-3, #button-4").removeClass("button-active");
 });
