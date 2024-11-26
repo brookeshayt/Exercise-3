@@ -3,15 +3,15 @@ console.log('Come work out with Henry the Hamster!');
 $("#button-1").on("click", function () {
     console.log('Dwayne "The Rock" Johnson, is that you?');
     $("#button-1").addClass("button-active");
-    $(".body").addClass("muscles");
+    $("#image").addClass("muscles");
     // $("#image").html("<img src=\"images/Henry.png\">");
 });
 
 $("#button-2").on("click", function () {
     console.log('Its about drive, its about power, we stay hungry, we devour');
     $("#button-2").addClass("button-active");
-    $("body").css("background-image", "url(../images/Henry2.png);");
-    // $("#image").html("<img src='../images/Henry2.png'>");
+    $("#image").addClass("barbell");
+    // $("#image").css("background-image", "url(../images/Henry2.png);");
     // $(this).unbind("click");
 });
 

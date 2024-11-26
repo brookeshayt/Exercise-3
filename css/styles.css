@@ -11,11 +11,6 @@ body {
     text-align: center;
     min-height: 100vh;
     background-color: rgb(99, 163, 203);
-
-    background-image: url(../images/Henry.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 h1 {
@@ -37,6 +32,13 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+#image {
+    background-image: url(../images/Henry.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .button {
