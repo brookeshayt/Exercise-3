@@ -7,13 +7,13 @@ $("#button-1").on("click", function () {
     // $("#image").html("<img src=\"images/Henry.png\">");
 });
 
-$("#button-2").on("click", "mousemove", function () {
+$("#button-2").on("click", function () {
     console.log('Its about drive, its about power, we stay hungry, we devour');
     $("#button-2").addClass("button-active");
-    document.getElementById("#image").style.backgroundImage = "url('../images/Henry2.png')";
+    document.getElementById("image").style.backgroundImage = "url('../images/Henry2.png')";
     // $("#image").css("background-image", "url(../images/Henry2.png);");
     if (onclick == "#button-1", "#button-3", "#button-4", "#button-5") {
-        $("#button-2").hide("button-active");
+        $("click").hide();
     }
 });
 
