@@ -7,19 +7,23 @@ $("#button-1").on("click", function () {
     // $("#image").html("<img src=\"images/Henry.png\">");
 });
 
-$("#button-2").on("click", function () {
+$("#button-2").on("click", "mousemove", function () {
     console.log('Its about drive, its about power, we stay hungry, we devour');
     $("#button-2").addClass("button-active");
-    $("#image").addClass("barbell");
+    document.getElementById("#image").style.backgroundImage = "url('../images/Henry2.png')";
     // $("#image").css("background-image", "url(../images/Henry2.png);");
-    // $(this).unbind("click");
+    if (onclick == "#button-1", "#button-3", "#button-4", "#button-5") {
+        $("#button-2").hide("button-active");
+    }
 });
 
-$("#button-3").on("click", function () {
+if ($("#button-3").on("click", function () {
     console.log('Henry takes out his frustration in a demure way... with a punching bag');
     $("#button-3").addClass("button-active");
     $("#image").html("<img src='../images/Henry3.png'>");
-});
+}) == true) {
+    $("#button-2").hide("button-active");
+}
 
 $("#button-4").on("click", function () {
     console.log('Weeeeeeeeeee');
